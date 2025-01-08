@@ -16,6 +16,8 @@
 - sever 코드는 GPU가 연결된 Visual Studio Code에서 실행을합니다.
 - Mobile application은 Android Studio에서 실행을 하여 다운을 받습니다.
 
+
+
   
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9f24d535-9487-4b3d-97bf-149f28e7eab0" alt="Process" width="500"/>
@@ -23,7 +25,4 @@
 
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/47ef8147-0e1b-451c-88a3-dfaaeb4d20f7" alt="before_after" width="500"/>
-</p>
 

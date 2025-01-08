@@ -16,8 +16,9 @@
 - sever 코드는 GPU가 연결된 Visual Studio Code에서 실행을합니다.
 - Mobile application은 Android Studio에서 실행을 하여 다운을 받습니다.
 
-![before](https://github.com/user-attachments/assets/6eaaa66d-2ef8-424e-95fc-281107793954) ![after](https://github.com/user-attachments/assets/10f46d4d-83f2-4994-9258-0b0e13fdfe96)
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/47ef8147-0e1b-451c-88a3-dfaaeb4d20f7" alt="before_after" width="500"/>
+</p>
 
- 

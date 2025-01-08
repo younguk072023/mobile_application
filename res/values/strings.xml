@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">NFC Diagnosis</string>
-    <string name="image_choose">Image choose</string>
-    <string name="mask_choose">Mask choose</string>
-    <string name="result">Result</string>
-    <string name="preprocessing">Preprocessing</string>
-    <string name="unet">UNet</string>
-    <string name="nfc_diagnosis">NFC Diagnosis</string>
-</resources>

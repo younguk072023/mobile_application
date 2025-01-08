@@ -9,6 +9,12 @@
   <img src="https://img.shields.io/badge/OpenAI-%234EA94B?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI"/>
 </p>
 
+## 개발 환경
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VSCode Logo" width="100" height="100">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Android_Studio_Trademark.svg/512px-Android_Studio_Trademark.svg.png" alt="Android Studio Logo" width="100" height="100">
+</p>
+
 
 ## 기능
 - Camera button -> 스마트폰의 카메라 기능을 하는 역할로 카메라 모드로 변환을 합니다.
@@ -19,8 +25,10 @@
 
 
 ## 실행 방법
-- sever 코드는 GPU가 연결된 Visual Studio Code에서 실행을합니다.
-- Mobile application은 Android Studio에서 실행을 하여 다운을 받습니다.
+- GPU가 연결된 서버측 컴퓨터의 IP주소를 확인합니다.
+- Android측 network코드에서 서버측 IP주소에 맞게 변경을 합니다.
+- 서버측 컴퓨터를 실행시킵니다.
+- Android Studio를 실행시켜 다운로드받습니다.
 
 
 

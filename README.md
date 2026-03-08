@@ -6,6 +6,7 @@
 
 ## Publication Paper 
 박영욱, 계슬아, & 이언석. (2026). 스마트폰 현미경과 딥러닝 분석을 활용한 손톱 하부 모세혈관 검출. 전기학회논문지, 75(1), 166-173.
+
 [논문 링크 바로가기](http://www.tkiee.org/kiee/XmlViewer/f450064)
 
 ## Tech Stack

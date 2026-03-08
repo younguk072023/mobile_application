@@ -29,6 +29,8 @@
 - **UNet:** 전처리가 완료된 후, 사전에 학습된 U-Net 모델을 로드하여 분석을 준비합니다.
 - **Result:** 전처리된 이미지를 서버로 전송하고, 서버 측 모델의 추론 결과를 반환받습니다.
 
+<img width="924" height="586" alt="image" src="https://github.com/user-attachments/assets/ffb2170f-549c-45ff-9e93-1b11233446c6" />
+
 ## How to Run
 
 ### 1. Server (Python)

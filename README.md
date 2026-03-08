@@ -33,10 +33,15 @@
 
 
 ## Datasets 
+본 연구에서는 자체 제작한 3D 프린팅 스마트폰 현미경을 활용하여 11명의 피험자로부터 총 114장의 손톱 하부 모세혈관 원본 이미지를 획득
+- **Data Augmentation:** 데이터 부족 문제를 해결하기 위해 수평/수직 반전 및 회전 기법을 적용하여 총 456장으로 증강.
+- **Data Split:** Train 376장 / Validation 40장 / Test 40장 (8:1:1 비율)
+- **Preprocessing:** 1mm 기준 너비인 645x180 pixels 크기로 고정(Crop)하고, 분석 정확도를 높이기 위해 Grayscale 변환을 수행.
 <img width="1280" height="530" alt="image" src="https://github.com/user-attachments/assets/ac9338f4-87bc-47b1-802f-086c974b56ae" />
 
 ## Results
 <img width="579" height="340" alt="image" src="https://github.com/user-attachments/assets/60746690-f724-42a1-bd3c-c13e0eae977a" />
+<img width="439" height="792" alt="image" src="https://github.com/user-attachments/assets/a50bb089-2468-4b49-9e28-a05cc5b81162" />
 
 
 ## How to Run

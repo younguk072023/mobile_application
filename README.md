@@ -37,4 +37,4 @@
 - GPU가 연결된 서버 PC의 IP 주소를 확인합니다.
 - 서버 코드를 실행하여 추론 서버를 대기 상태로 만듭니다.
 ```bash
-
+git clone https://github.com/younguk072023/mobile_application.git

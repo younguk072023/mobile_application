@@ -18,8 +18,8 @@
 ## Prerequisites
 * **IDE:** <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" align="center">
   <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" align="center">
-* **Python:** 3.x (사용하신 버전 기입)
-* **Android:** SDK API Level XX 이상 (사용하신 버전 기입)
+* **Python:** 3.9.0 
+* **Android:** SDK API Level XX 이상 
 
 ## Features
 - **Camera:** 스마트폰 카메라 모드를 활성화하여 실시간으로 이미지를 획득합니다.

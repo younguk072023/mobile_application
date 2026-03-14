@@ -40,7 +40,7 @@
 <img width="1280" height="530" alt="image" src="https://github.com/user-attachments/assets/ac9338f4-87bc-47b1-802f-086c974b56ae" />
 
 ## Results
-총 6가지의 의료 영상 분할 모델을 비교 평가한 결과, 모세혈관과 같이 미세하고 세밀한 구조를 분할하는 데 있어 **U-Net** 모델이 가장 우수한 성능을 도출.
+총 6가지의 의료 영상 분할 모델을 비교 평가한 결과, 모세혈관과의 미세하고 세밀한 구조를 분할하는 데 있어 **U-Net** 모델이 가장 우수한 성능을 도출.
 - **Accuracy (정확도):** 93.23%
 - **Dice Coefficient (다이스 계수):** 96.10%
 - **Jaccard Index (자카드 지수):** 92.57%

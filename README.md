@@ -54,7 +54,7 @@
 - GPU가 연결된 서버 PC의 IP 주소를 확인합니다.
 - 서버 코드를 실행하여 추론 서버를 대기 상태로 만듭니다.
 
-- ## 📜 Registration & License
+## Registration & License
 
 ### Software Registration
 본 소프트웨어는 한국저작권위원회를 통해 정식 등록된 저작물입니다.

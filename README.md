@@ -63,9 +63,5 @@
 * **등록 연월일:** 2025년 02월 28일
 * **저작권자:** 순천향대학교 산학협력단
 
-### License
-이 프로젝트는 **MIT License**에 따라 배포됩니다. 오픈소스 목적으로 사용 시 원저작자 및 라이선스 표시를 유지해야 합니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 확인하세요.
-
-Copyright (c) 2026 Younguk Park
 ```bash
 git clone https://github.com/younguk072023/mobile_application.git

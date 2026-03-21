@@ -58,9 +58,22 @@
 
 ## How to Run
 
-### 1. Server (Python)
-- GPU가 연결된 서버 PC의 IP 주소를 확인합니다.
-- 서버 코드를 실행하여 추론 서버를 대기 상태로 만듭니다.
+Step 1. 기기 연결 및 촬영 (Capture)
+스마트폰 현미경 결합: 3D 프린팅된 전용 현미경 케이스를 스마트폰에 장착합니다.
+
+카메라 실행: 앱 내 Camera 버튼을 눌러 손톱 근위 조갑주위(Nailfold)에 초점을 맞추고 이미지를 획득합니다.
+
+Step 2. 데이터 전처리 (Preprocessing)
+영역 지정: 획득된 이미지에서 분석에 필요한 1mm 기준 너비(645x180 pixels)를 자동으로 Crop 합니다.
+
+노이즈 제거: 분석 정확도를 높이기 위해 Grayscale 변환 및 최적화 과정을 거칩니다.
+
+Step 3. AI 분석 및 결과 확인 (AI Analysis)
+서버 전송: 전처리된 이미지는 GPU 기반 추론 서버로 전송됩니다.
+
+U-Net Segmentation: 사전에 학습된 U-Net 모델이 모세혈관의 형태를 정밀하게 분할(Segmentation)합니다.
+
+결과 반환: 분석된 마스크 이미지와 통계 데이터를 앱 화면에서 즉시 확인할 수 있습니다.
 
 ```bash
 git clone https://github.com/younguk072023/mobile_application.git

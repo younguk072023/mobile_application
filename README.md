@@ -9,6 +9,14 @@
 
 [논문 링크 바로가기](http://www.tkiee.org/kiee/XmlViewer/f450064)
 
+## Registration & License
+
+### Software Registration
+본 소프트웨어는 한국저작권위원회를 통해 정식 등록된 저작물입니다.
+* **제호(명칭):** 모세혈관 검출 분할 시스템
+* **등록 번호:** 제 C-2025-007833 호
+* **등록 연월일:** 2025년 02월 28일
+
 ## Tech Stack
 <p align="left">
   <img src="https://img.shields.io/badge/Kotlin-%237F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
@@ -53,15 +61,6 @@
 ### 1. Server (Python)
 - GPU가 연결된 서버 PC의 IP 주소를 확인합니다.
 - 서버 코드를 실행하여 추론 서버를 대기 상태로 만듭니다.
-
-## Registration & License
-
-### Software Registration
-본 소프트웨어는 한국저작권위원회를 통해 정식 등록된 저작물입니다.
-* **제호(명칭):** 모세혈관 검출 분할 시스템
-* **등록 번호:** 제 C-2025-007833 호
-* **등록 연월일:** 2025년 02월 28일
-* **저작권자:** 순천향대학교 산학협력단
 
 ```bash
 git clone https://github.com/younguk072023/mobile_application.git

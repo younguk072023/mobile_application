@@ -70,6 +70,5 @@
 - 분석 이미지 전송: 전처리된 이미지와 사전 학습된 U-Net모델은 GPU 기반 추론 서버로 전송됩니다.
 - 결과 반환: 분석된 마스크 이미지를 앱 화면에서 즉시 확인할 수 있습니다.
 
-### 실행 방법
 ```bash
 git clone https://github.com/younguk072023/mobile_application.git

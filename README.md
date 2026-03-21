@@ -34,7 +34,7 @@
 - **Camera:** 스마트폰 카메라 모드를 활성화하여 실시간으로 이미지를 획득합니다.
 - **Image Choose:** 기기 갤러리로 이동하여 사전에 확보한 이미지를 선택할 수 있습니다.
 - **Preprocessing:** 선택된 이미지를 645x180 크기로 Crop 한 후, Grayscale로 변환하여 딥러닝 분석을 위한 전처리 과정을 수행합니다.
-- **UNet:** 전처리가 완료된 후, 사전에 학습된 U-Net 모델을 로드하여 분석을 준비합니다.
+- **U-Net:** 전처리가 완료된 후, 사전에 학습된 U-Net 모델을 로드하여 분석을 준비합니다.
 - **Result:** 전처리된 이미지를 서버로 전송하고, 서버 측 모델의 추론 결과를 반환받습니다.
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/ffb2170f-549c-45ff-9e93-1b11233446c6" />
@@ -58,15 +58,15 @@
 
 ## How to Run
 
-**Step 1.** 기기 연결 및 촬영 (Capture)
+**Step 1. 기기 연결 및 촬영 (Capture)**  
 스마트폰 현미경 결합: 3D 프린팅된 전용 현미경 케이스를 스마트폰에 장착합니다.
 카메라 실행: 앱 내 Camera 버튼을 눌러 손톱 주름부위(Nailfold)에 초점을 맞추고 이미지를 획득합니다.
 
-**Step 2.** 데이터 전처리 (Preprocessing)
+**Step 2. 데이터 전처리 (Preprocessing)**
 영역 지정: 획득된 이미지에서 분석에 필요한 1mm 기준 너비(645x180 pixels)로 Crop 합니다.
 노이즈 제거: 분석 정확도를 높이기 위해 Grayscale 변환 및 최적화 과정을 거칩니다.
 
-**Step 3.** AI 분석 및 결과 확인 (AI Analysis)
+**Step 3. AI 분석 및 결과 확인 (AI Analysis)**
 서버 전송: 전처리된 이미지와 사전 학습딘 U-Net모델은 GPU 기반 추론 서버로 전송됩니다.
 결과 반환: 분석된 마스크 이미지를 앱 화면에서 즉시 확인할 수 있습니다.
 

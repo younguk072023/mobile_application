@@ -21,7 +21,6 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Kotlin-%237F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=Python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/OpenAI-%234EA94B?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI"/>
 </p>
 
 ## Prerequisites
